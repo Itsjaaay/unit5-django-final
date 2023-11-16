@@ -1,0 +1,13 @@
+<!-- team_viewer/templates/team_viewer/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}BCCA Leadership Project Team Viewer{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'team_viewer/style.css' %}">
+</head>
+<body>
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

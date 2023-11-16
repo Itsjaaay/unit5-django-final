@@ -1,7 +1,6 @@
 import balloons
 import pytest
 
-
 def test_sword_balloon():
     assert issubclass(balloons.SwordBalloon, balloons.Balloon)
     assert balloons.SwordBalloon.pump is balloons.Balloon.pump
