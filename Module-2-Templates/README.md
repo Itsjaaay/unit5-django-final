@@ -19,6 +19,8 @@ With simple templates (like video 1), create the following pages:
 - `/` should show a list of each project team names.
 - `/management` should show detailed information about the management team.
 - `/procurement` should show detailed information about the procurement team.
+- `/community` should show detailed information about the community team.
+- `/documentation` should show detailed information about the documentation team.
 - Continue this for all of the remaining leadership project teams.
 
 At the end of this step you should have:
