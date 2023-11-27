@@ -1,5 +1,5 @@
 """
-ASGI config for codingbat_over_http project.
+ASGI config for http_functions project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "codingbat_over_http.settings")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'http_functions.settings')
 
 application = get_asgi_application()
